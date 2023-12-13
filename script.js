@@ -1,4 +1,4 @@
-setInterval(showTime, 1000);
+setInterval(time, 1000);
  
 // Defining showTime funcion
 function time() {
