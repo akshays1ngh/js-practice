@@ -32,5 +32,5 @@ function time() {
         am_pm;
  
     // Displaying the time
-    document.getElementById("clock").innerHTML = currentTime;
+    document.getElementById("you").innerHTML = currentTime;
 }
