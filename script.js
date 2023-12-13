@@ -5,6 +5,6 @@ function time(){
             + currentdate.getMinutes() + ":" 
             + currentdate.getSeconds();
         
-    document.getElementById("datebtn").innerHTML="time is ="+timenow;
+    document.getElementById("you").innerHTML="time is ="+timenow;
 
 }
