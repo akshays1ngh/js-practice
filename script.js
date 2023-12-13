@@ -1,3 +1,10 @@
 function time(){
-    document.getElementById("you").innerHTML = getDate();
+
+    var currentdate = new Date(); 
+    var timenow = + currentdate.getHours() + ":"  
+            + currentdate.getMinutes() + ":" 
+            + currentdate.getSeconds();
+        
+    document.getElementById("datebtn").innerHTML="time is ="+timenow;
+
 }
